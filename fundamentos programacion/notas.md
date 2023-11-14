@@ -141,4 +141,27 @@ let activo:boolean = false;
 
 ```
 
+### Estructura de control if y else
+Nos permite poder decirle a la computadora que accion tomar y que camino seguir dependiendo de condiciones y/o decisiones.
+
+El if y else se pueden anidar, es decir en una condicion if podemos realizar otro if else y asi sucesivamente sin limite.
+
+```
+if (expresion o condicion)
+else
+```
+### Estructura de control switch
+Permite realizar multiples decisiones de forma limpia y eficiente
+
+```
+switch (variable o expresion a evaluar)
+case1: "hoy es lunes";
+  break
+case2: "hoy es martes";
+  break
+case3: "hoy es miercoles";
+  break
+default: "No es ningun dia";
+```
+
 
