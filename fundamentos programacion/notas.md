@@ -164,4 +164,24 @@ case3: "hoy es miercoles";
 default: "No es ningun dia";
 ```
 
+### Ciclos o loops
+Nos permiten ejecutar las mismas lineas de codigo una y otra vez de forma consecutiva
+
+El siguiente ciclo es muy util cuando no conocemos exactamente la cantidad d eveces que necesitamos ejecutar el codigo
+
+```
+while(condicion){
+
+}
+```
+
+El siguiente codigo es util cuando sabemos la cantidad de veces que necesitamos ejecutar el codigo
+
+https://prnt.sc/VL5SNf3wD8RF
+```
+for(let variable = 1;variable <= 10; variable++){
+
+}
+```
+
 
