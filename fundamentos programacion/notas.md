@@ -183,5 +183,32 @@ for(let variable = 1;variable <= 10; variable++){
 
 }
 ```
+### Funciones
+Una funcion es un conjunto de lineas de codigo que realizan una tarea especifica y puede retornar algo
+
+### Que es un parametro / argumento
+Es algo que podemos dar para que las funciones trabajen
+
+### Export y imports
+Esto nos sirve para tener el codigo separado y ordenado, debemos asignar el export a lo que queremos importar a otros lugares y no olvidar que debemos en donde estemos trabajando y tratemos de importar ya sean funciones o demas siempre importarlas antes
+```
+//Ejemplo
+import {
+  addTwoNumbers, 
+  substractTwoNumbers, 
+  timesTwoNumbers, 
+  divideTwoNumbers
+} from './sections/fundamentals/math-helpers';
+
+```
+### Arreglos- Arrays
+Es un conjunto de cosas similares
+
+```
+let flores = ["rosa","clavel","otra flor];
+
+//llamar a una flor es especifica
+let florPrimera = flores[1]; =>clavel
 
 
+```
