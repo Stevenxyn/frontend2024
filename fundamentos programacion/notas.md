@@ -212,3 +212,25 @@ let florPrimera = flores[1]; =>clavel
 
 
 ```
+
+
+### Objetos
+Es una representacion abstracta de una cosa en la vida real
+Por ejemplo:
+
+Un auto
+- Marca:Mitsubishi
+- Color:Blanco
+- Tipo:4x4
+- Cantidad Llantas:Cuatro llantas
+- Puertas:5 puertas
+
+Los objetos son como variables que dentro de si tienen propiedades, estas estan amarradas al objeto en el ejemplo anterior el Auto
+
+- Los metodos: son funciones que estan dentro del objeto cuando ponemos el . Los metodos pueden recibir argumentos
+
+- cuando usamos this es para mencionar el llamado del mismo objeto en el que estamos, si en el futuro cambia no habria que modificar los llamados ya que estos apuntan al objeto en si con this
+
+
+### Clases
+Al igual que los objetos pueden ser representaciones abstractas de cosas. Lo explica en el curso es como pensar que son moldes para hacer galletas
